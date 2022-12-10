@@ -25,7 +25,7 @@ optional arguments:
   --testname {setup,run,teardown}, -t {setup,run,teardown}
                         Enter one of the testname
 ```
-- Executing test
+- Executing tests
 ```
 $python containertest.py -i nginx -t setup
 Already logged into container registry
