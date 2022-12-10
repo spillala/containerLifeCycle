@@ -4,7 +4,8 @@ Testing basic container life cycle operations
 project is implemented in Python
 
 ## Prerequisites
-- Modules required to be able to use the script successfully and how to install them. (Including a requirements.txt file will work.)
+- Install all Modules required mentioned in requirements.txt file
+- Docker should be running on local machine
 - Clone repository containerLifeCycle in one of the avilable ways
    Lear more about cloning a repo https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 ## How to run tests
