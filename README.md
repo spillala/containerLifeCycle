@@ -25,7 +25,7 @@ optional arguments:
   --testname {setup,run,teardown}, -t {setup,run,teardown}
                         Enter one of the testname
 ```
-- Executing tests
+- Examples - Executing tests
 ```
 $python containertest.py -i nginx -t setup
 Already logged into container registry
@@ -33,6 +33,7 @@ About to execute test: setup
 Started downloading image........: nginx
 Downloaded image: nginx successful
 ```
+
 ```
 $python containertest.py -i nginx -t run
 Already logged into container registry
