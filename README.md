@@ -4,10 +4,10 @@ Testing basic container life cycle operations
 project is implemented in Python
 
 ## Prerequisites
-- Install all Modules required mentioned in requirements.txt file
+- Install all Modules required in requirements.txt file
 - Docker should be running on local machine
-- Clone repository containerLifeCycle in one of the avilable ways
-   Lear more about cloning a repo https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+- Clone repository 'containerLifeCycle' in one of the avilable ways
+   Learn more about cloning a repo https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 ## How to run tests
 - Go to tests folder of the repository - containerLifeCycle/tests
 - run containertest.py with test and container to be tested
@@ -26,7 +26,7 @@ optional arguments:
   --testname {setup,run,teardown}, -t {setup,run,teardown}
                         Enter one of the testname
 ```
-- Examples - Executing tests
+- Examples for executing tests
 ```
 $python containertest.py -i nginx -t setup
 Already logged into container registry
