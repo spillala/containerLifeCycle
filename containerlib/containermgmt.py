@@ -18,6 +18,7 @@ class Containerlifecycle():
         
         self.containerPrefix = ''.join(random.choices(string.ascii_uppercase + string.digits, k=7))
 
+    #This is for testing
     def imageimport(self, imagename):
         try:
             image = self.docker_client.images.pull(imagename)
